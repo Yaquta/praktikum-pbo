@@ -1,0 +1,39 @@
+// Nama      : M Yaquta Husna
+// NIM       : 24060122130056
+// Nama File : Kupu.java
+
+class Kupu {
+    void gerak() {
+    }
+}
+
+class Ulat extends Kupu {
+    void gerak() {
+        System.out.println("ulat merayap");
+    }
+}
+
+class Kepompong extends Kupu {
+    void gerak() {
+        System.out.println("kepompong diam");
+    }
+}
+
+class KupuDewasa extends Kupu {
+    void gerak() {
+        System.out.println("kupu terbang");
+    }
+}
+
+class Data<T> {
+    private T isi;
+
+    T getIsi() {
+        return this.isi;
+    }
+
+    void setIsi(T x) {
+        this.isi = x;
+    }
+}
+
